@@ -1,0 +1,12 @@
+server:
+  port: 8002
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:7001/eureka,http://server2:7002/eureka,http://server3:7003/eureka
+  instance:
+    instance-id: client2
+spring:
+  application:
+    name: TestCloud

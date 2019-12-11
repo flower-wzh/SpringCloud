@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/server1" />
+    <file type="web" url="file://$PROJECT_DIR$/server2" />
+    <file type="web" url="file://$PROJECT_DIR$/server3" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/client1/pom.xml" />
+        <option value="$PROJECT_DIR$/server2/pom.xml" />
+        <option value="$PROJECT_DIR$/server1/pom.xml" />
+        <option value="$PROJECT_DIR$/server3/pom.xml" />
+        <option value="$PROJECT_DIR$/server_2/pom.xml" />
+        <option value="$PROJECT_DIR$/server_3/pom.xml" />
+        <option value="$PROJECT_DIR$/server_1/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/provider02/pom.xml" />
+        <option value="$PROJECT_DIR$/provider03/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
