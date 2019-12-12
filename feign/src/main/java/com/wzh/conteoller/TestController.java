@@ -1,5 +1,6 @@
 package com.wzh.conteoller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.wzh.service.TestClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,6 +15,7 @@ public class TestController {
     private TestClientService testClientService;
 
     @RequestMapping("/test/{name}")
+    //@HystrixCommand(fallbackMethod = "sss")
     public String test(@PathVariable("name") String name) {
         return testClientService.test(name);
     }
