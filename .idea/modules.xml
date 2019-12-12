@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/client1/client1.iml" filepath="$PROJECT_DIR$/client1/client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider02/provider02.iml" filepath="$PROJECT_DIR$/provider02/provider02.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider03/provider03.iml" filepath="$PROJECT_DIR$/provider03/provider03.iml" />
       <module fileurl="file://$PROJECT_DIR$/server1/server1.iml" filepath="$PROJECT_DIR$/server1/server1.iml" />
