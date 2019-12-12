@@ -1,0 +1,8 @@
+server:
+  port: 6001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:7001/eureka,http://server2:7002/eureka,http://server3:7003/eureka
+    register-with-eureka: false
+
